@@ -62,12 +62,20 @@ The antenna radiates a wide broadside beam perpendicular to the patch, with 6 dB
 
 ### Comparison with other RFID antennas
 
-![Comparison with published RFID antennas](images/comparison-table.png)
+| Reference | Application | Frequency | Substrate / material | Reported performance |
+|---|---|---|---|---|
+| Islam et al., *Sensors*, 2018 | Flexible UHF tag | Universal UHF RFID band | Photo paper, inkjet-printed silver | Read range ≈ 4.57 m (15 ft) |
+| Vena et al., IEEE RFID, 2013 | Wearable chipless tag | 3 – 6 GHz | Cotton textile, sewn conductive thread | Est. read range 1.68 m |
+| Liu et al., *IEEE TAP*, 2015 | Handheld reader | 0.92 / 2.45 GHz | — | Dual-band, circularly polarized |
+| Romputtal & Phongcharoenpanich, *IEEE Access*, 2019 | Integrated reader | 13.56 MHz, 920–925 MHz, 2.45 GHz | — | NFC + dual-band RFID in one antenna |
+| **This work** | **2.45 GHz RFID** | **2.38 – 2.47 GHz (–10 dB)** | **FR4** | **Gain 2.27 dBi, directivity 6.0 dBi** |
+
+The designs target different bands and applications, so the comparison is qualitative. Full references are in the report.
 
 ## Repository Contents
 
 ```
-├── images/     Geometry, S11, VSWR, radiation patterns, comparison table
+├── images/     Geometry, S11, VSWR and radiation pattern plots
 └── report.pdf  Full project report
 ```
 
